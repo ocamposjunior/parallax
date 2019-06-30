@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+	background-color: #F4A460;
+	height: 100%;
+}
+
+
+
+.curriculum1, .curriculum2, .curriculum3, .curriculum4 {
+	position: relative;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+.textos {
+	background: #000;
+}
+
+.textos h1 {
+	font-size: 2em;
+	color: #F4A460;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 15px;	
+}
+
+.textos p {
+	font-size: 1.1em;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	text-align: center;
+	color: #fff;
+}
+
+.fundo-preto {
+	background: #000;
+	color: black;
+	margin-bottom: 15px;
+}
+
+.titulo-imagem {
+	position: absolute;
+	font-size: 4em;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.titulo-imagem span.titulo {
+	background-color: #B5B5B5;
+	color: #fff;
+	padding: 15px;
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.curriculum1 {
+	background-image: url(../imagens/imagem1.jpg);
+
+}
+
+.curriculum2 {
+	background-image: url(../imagens/imagem2.jpg);
+
+}
+
+.curriculum3 {
+	background-image: url(../imagens/imagem3.jpg);
+
+}
+
+.curriculum4 {
+	background-image: url(../imagens/imagem4.jpg);
+
+}
+
+ul {
+	color: #fff;
+	text-decoration: none;
+	list-style: none;
+	font-size: 1.4em;
+}
+
+.textos-estilos li:hover {
+	background: #4F4F4F;
+	cursor: pointer;
+}
+
+.textos-estilos {
+	border-top: 1px solid #fff;
+	margin-top: 10px;
+	border-bottom: 1px solid #fff;	
+	margin-bottom: 10px;	
+	padding: 10px 20px;
+}
+
+.textos-estilos span {
+	color: #FFFF00;
+	margin-right: 10px;
+}
+
+.textos-estilos li {
+	padding: 5px;
+}
+
+.alinha-imagens {
+	text-align: center;
+}
+
+.alinha-imagens img {
+	padding: 0px 10%;
+}
+
